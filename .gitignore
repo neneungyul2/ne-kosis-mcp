@@ -1,0 +1,26 @@
+# Environment variables (API key)
+.env
+.env.local
+.env.*.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+
+# Outputs and caches
+exports/
+.cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code configuration
+.claude/
+catalog.draft.json
